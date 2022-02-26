@@ -2,40 +2,60 @@
 
 <html>
     <head>
-        <title>title</title>
+        <title>Wearables</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="css/main/style.css">
+        <link rel="stylesheet" href="css/title.css">
+        <link rel="stylesheet" href="css/project.css">
+        <link rel="stylesheet" href="css/contact.css">
     </head>
 
     <body>
 
-        <!-- navigation bar -->
+        <!-- pages -->
         <header>
+            <!-- all pages -->
+            <div id="page-container">
+                <!-- title page -->
+                <div id="title-page" class="page">
+                    <h1>RIS Team</h1>
+                    <div style="position:relative;display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-evenly; top: 100px;">
+                        <p id="text1">
+                            Hello, we are from Regent International School, and today we will talk about wearables.
+                        </p>
+                        <img src="images/image1.jpg" id="image1">
+                    </div>
+                </div>
 
+                <!-- project page -->
+                <div id="project-page" class="page">
+                    <h1>What are wearables?</h1>
+                    <div style="position:relative;display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-evenly; top: 100px;">
+                        <p id="text2">
+                            Have you ever heard someone mention wearable technology but weren't quite sure what it meant? Simply put, wearable technology is a general term for a group of devices—including fitness trackers and smartwatches—that are designed to be worn throughout the day. These devices are often called wearables for short.
+
+                            Wearables have become increasingly popular over the past few years, but the basic idea is nothing new. For example, if you've ever worn a wristwatch, you've already used a simple kind of wearable. Today's wearables can actually connect with your existing devices, like computers and smartphones, which means they can do a lot of interesting things.
+                        </p>
+                        <img src="images/image2.jpg" id="image2">
+                    </div>
+                </div>
+
+                <!-- contact+inspired -->
+                <div id="contact-inspiration-page" class="page">
+                    <div id="contact">
+                        <h1>Contact Us</h1>
+                        <div style="position:relative; left: 30vw; top: 100px;">
+                            <form id="myform" style="margin-bottom: 20px; font-family: 'Lato'">
+                                Name: <input type="text" id="name"> <br>
+                                Email: <input type="text" id="email"> <br>
+                            </form>
+                            <button onclick="submit()" id="submit_button">Submit</button>
+                            <p id="text"">Have a question about wearables? Please submit your name and email.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </header>
-
-        <!-- all pages -->
-        <div id="page-container">
-            <!-- title page -->
-            <div>
-
-            </div>
-
-            <!-- about us -->
-            <div>
-
-            </div>
-
-            <!-- project page -->
-            <div>
-
-            </div>
-
-            <!---->
-            <div>
-
-            </div>
-        </div>
-
 
         <!-- footer -->
         <footer>
@@ -43,4 +63,12 @@
         </footer>
 
     </body>
+    <script>
+        function submit() {
+            document.getElementById("text").innerHTML = "Thank You";
+            document.getElementById("name").disabled = true;
+            document.getElementById("email").disabled = true;
+            document.getElementById("submit_button").disabled = true;
+        }
+    </script>
 </html>

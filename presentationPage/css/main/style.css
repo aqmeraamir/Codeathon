@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/* page class */
+.page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* title/header of every page */
+h1 {
+    position: relative;
+    text-align: center;
+    font-family: 'Roboto';
+}
+
+p {
+    font-family: 'Lato';
+}
