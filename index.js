@@ -33,6 +33,11 @@ app.get('/', function(req, res) {
     res.sendFile('C:/Users/aqmer/OneDrive/Desktop/Codeathon/interactive/index.html');
   });
 
+app.get('/quiz', function(req, res) {
+    res.sendFile('C:/Users/aqmer/OneDrive/Desktop/Codeathon/quiz.html');
+  });
+
+
   
 app.listen(port)
 console.log('Server started at http://localhost:' + port);
