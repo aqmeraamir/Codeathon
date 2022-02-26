@@ -1,6 +1,6 @@
 // Importing all the modules
 
-keyboardjs = require("keyboardjs")
+keyboardJS = require("keyboardjs")
 
 
 
@@ -20,7 +20,7 @@ let years = Math.round(d.getTime() / year);
 
 // Keyboard Interaction
 
-
+keyboardJs
 
 
 
