@@ -22,10 +22,6 @@ const d = new Date();
 let years = Math.round(d.getTime() / year);
 
 
-// Keyboard Interaction
-
-
-
 
   
 
