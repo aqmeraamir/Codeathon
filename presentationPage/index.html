@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/main/style.css">
         <link rel="stylesheet" href="css/title.css">
         <link rel="stylesheet" href="css/project.css">
+        <link rel="stylesheet" href="css/contact.css">
     </head>
 
     <body>
@@ -49,11 +50,16 @@
 
                 <!-- contact+inspired -->
                 <div id="contact-inspiration-page" class="page">
-                    <div id="contact-half-page">
+                    <div id="contact">
                         <h1>Contact Us</h1>
-                    </div>
-                    <div id="insiration-half-page">
-                        <h1>Inspired by...</h1>
+                        <div style="position:relative;display: flex; flex-direction: row; flex-wrap: wrap; justify-content: space-evenly; top: 100px;">
+                            <form id="myform">
+                                First Name: <input type="text" id="firstname"> <br>
+                                Second Name: <input type="text" id="secondname"> <br>
+                            </form>
+                            <button onclick="submit()" id="submit_button">Submit</button>
+                            <p id="text"">Please submit your first and last name</p>
+                        </div>
                     </div>
                 </div>
             </div>
