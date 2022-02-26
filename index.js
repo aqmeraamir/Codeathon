@@ -30,7 +30,7 @@ let years = Math.round(d.getTime() / year);
 // Server
 
 app.get('/', function(req, res) {
-    res.sendFile('C:/Users/aqmer/OneDrive/Desktop/Codeathon/interactive/index.html');
+    res.sendFile('C:/Users/aqmer/OneDrive/Desktop/Codeathon/presentationPage/index.html');
   });
 
 app.get('/quiz', function(req, res) {
