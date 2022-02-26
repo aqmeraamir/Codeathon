@@ -1,5 +1,8 @@
 {
   "dependencies": {
+    "express": "^4.17.3",
+    "fs": "^0.0.1-security",
+    "jade": "^1.11.0",
     "keyboardjs": "^2.6.4"
   }
 }
